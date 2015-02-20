@@ -3,18 +3,28 @@ this adds area name and area map.
 ----------------------------------------------------------------------------------------------------------------------
 required software:
 
-[*] mpq editor
-[*] CASCExplorer
-[*] MS excel
-[*] notepad
-[*] Bulk Rename Utility
-[*] dbc->cvs->dbc converter
+ [*] mpq editor
+ 
+ [*] CASCExplorer
+ 
+ [*] MS excel
+ 
+ [*] notepad
+ 
+ [*] Bulk Rename Utility
+ 
+ [*] dbc->cvs->dbc converter
+ 
 ----------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------
-After downloading Anthony's Toolbox map, open the patch and create a folder named "DBFilesClient" inside it.
-Create 2 folders on your c: drive.
-1 temporary folder called C:/WoD
-1 temporary folder called C:/Wotlk
+After downloading Anthony's Toolbox map, open the patch and create a folder named "DBFilesClient" 
+inside it and save the patch.
+Now create 2 folders on your c: drive.
+
+ [*] 1 temporary folder called C:/WoD
+
+ [*] 1 temporary folder called C:/Wotlk
+
 ----------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------
 now with CASCExplorer pointing at your WoD wow.exe folder, open CASCExplorer. this will take a short bit.
