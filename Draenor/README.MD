@@ -1,19 +1,19 @@
 ----------------------------------------------------------------------------------------------------------------------
-this adds area name and area map.
+this adds area name above mini-map.
 ----------------------------------------------------------------------------------------------------------------------
 required software:
 
-mpq editor
+ * mpq editor
  
-CASCExplorer
+ * CASCExplorer
  
-MS excel
+ * MS excel
  
-notepad
+ * notepad
  
-Bulk Rename Utility
+ * Bulk Rename Utility
  
-dbc->cvs->dbc converter
+ * dbc->cvs->dbc converter
  
 ----------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------
@@ -21,9 +21,9 @@ After downloading Anthony's Toolbox map, open the patch and create a folder name
 inside it and save the patch.
 Now create 2 folders on your c: drive.
 
-1 temporary folder called C:/WoD
+ * 1 temporary folder called C:/WoD
 
-1 temporary folder called C:/Wotlk
+ * 1 temporary folder called C:/Wotlk
 
 ----------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------
@@ -31,23 +31,23 @@ now with CASCExplorer pointing at your WoD wow.exe folder, open CASCExplorer. th
 
 now navigate to the DBFilesClient folder in the CASCExplorer screen and extract these 4 dbc files to your C:/WoD temp folder.
 
-AreaTable.dbc
+ * AreaTable.dbc
 
-Map.dbc
+ * Map.dbc
 
-WorldMapArea.dbc
+ * WorldMapArea.dbc
 
-WorldMapContinent.dbc
+ * WorldMapContinent.dbc
 
 now navigate to the DBc folder of your 3.3.5a Trinity Core server and extract these same 4 dbc files to your C:/wotlk working folder.
 
-AreaTable.dbc
+ * AreaTable.dbc
 
-Map.dbc
+ * Map.dbc
 
-WorldMapArea.dbc
+ * WorldMapArea.dbc
 
-WorldMapContinent.dbc
+ * WorldMapContinent.dbc
 
 ----------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------
@@ -83,7 +83,9 @@ It should look like this now:
 "13,1116,0,0,0,0,0.0,0.0,1.0,-4771.0,-6276.0,11630.0,10120.0,0,"
 save the file as a cvs (comma delimited).
 convert C:/WotlK/WorldMapContinent.dbc.cvs back into a dbc file.
+
 ----------------------------------------------------------------------------------------------------------------------
+
 convert C:/WoD/WorldMapArea.dbc to a cvs and open.
 now open word pad off to the side.
 now search and extract every line that has the map id (1116) for column 2 and paste to your . 
