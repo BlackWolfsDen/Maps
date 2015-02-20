@@ -2,12 +2,13 @@
 this adds area name and area map.
 ----------------------------------------------------------------------------------------------------------------------
 required software:
-mpq editor
-CASCExplorer
-MS excel
-notepad
-Bulk Rename Utility
-dbc->cvs->dbc converter
+
+[*] mpq editor
+[*] CASCExplorer
+[*] MS excel
+[*] notepad
+[*] Bulk Rename Utility
+[*] dbc->cvs->dbc converter
 ----------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------
 After downloading Anthony's Toolbox map, open the patch and create a folder named "DBFilesClient" inside it.
