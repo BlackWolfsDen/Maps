@@ -134,14 +134,19 @@ In Excel save the file as a cvs (comma delimited).
 convert C:/WotlK/AreaTable.dbc.cvs back into a dbc file.
 
 now go back to your custom map patch you downloaded from Anthony's Toolbox open it and add these 4 files to the DBFilesClient folder you created in it.
-C:/WotlK/AreaTable.dbc
-C:/WotlK/Map.dbc
-C:/WotlK/WorldMapArea.dbc
-C:/WotlK/WorldMapContinent.dbc
+ * C:/WotlK/AreaTable.dbc
+ * C:/WotlK/Map.dbc
+ * C:/WotlK/WorldMapArea.dbc
+ * C:/WotlK/WorldMapContinent.dbc
+ 
+ close the patch. renaim it patch-4.mpq and add it to your folder /world of warcraft/data/
+ start WoW and enjoy.
 
+----------------------------------------------------------------------------------------------------------------------
 AreaTable.dbc example:
 ----------------------------------------------------------------------------------------------------------------------
 6662,1116,0,5296,0x40,0,0,84,1143,1498,0,Talador,,,,,,,,,,,,,,,,0xFF01FE,0x0,0,,,0,-500.0,0.0,
 6719,1116,0,5351,0x40,0,0,96,1148,1455,-1,Shadowmoon Valley DR,,,,,,,,,,,,,,,,0xFF01FE,0x0,0,,,0,-500,0,
 6720,1116,0,5352,0x41,0,0,96,1147,1478,-1,Frostfire Ridge,,,,,,,,,,,,,,,,0xFF01FE,0x0,0,,,0,-500,0,
+
 ----------------------------------------------------------------------------------------------------------------------
