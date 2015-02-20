@@ -63,7 +63,7 @@ now copy the entry 1116 to your clipboard(Ctrl+C).
 now convert C:/WotlK/Map.dbc to a cvs file and open it up in notepad. scroll to the bottom and add entry 1116. close Map.dbc.cvs.
 Open the C:/WotlK/Map.dbc.cvs with MS Excel and scroll to the new entry at the bottom and confirm the data lines up wwith the Wotlk map entries.
 entry 1116 should now look like this:
-"1116,"Draenor",0,1,0,"Draenor",,,,,,,,,,,,,,,,0xFF01FE,0,"",,,,,,,,,,,,,,,,0xFF01FC,"",,,,,,,,,,,,,,,,0xFF01FC,360,1.0,0,0.0,0.0,-1,0x2,0x0,0x0,"
+ * "1116,"Draenor",0,1,0,"Draenor",,,,,,,,,,,,,,,,0xFF01FE,0,"",,,,,,,,,,,,,,,,0xFF01FC,"",,,,,,,,,,,,,,,,0xFF01FC,360,1.0,0,0.0,0.0,-1,0x2,0x0,0x0,"
 
 In Excel save the file as a cvs (comma delimited).
 convert C:/Map.dbc.cvs back into a dbc file.
@@ -76,11 +76,15 @@ NOW extracting everything that deals with the map id you want.(1116)
 
 convert C:/WoD/WorldMapContinent.dbc to a cvs. open it with notepad and scroll down until you find the entry that contains the map id(1116) in the second column entry:
 "13,1116,0,0,0,0,0.0,0.0,1.0,-4771.0,-6276.0,11630.0,10120.0,0,1,"
+
 copy this entry to your clipboard.
+
 now convert C:/WotlK/WorldMapContinent.dbc to a cvs and add this entry at the bottom and save.
 now open the C:/WotlK/WorldMapContinent.dbc.cvs with MS Excel and verify the data lines up properly with the Wotlk data entries.
+
 It should look like this now:
 "13,1116,0,0,0,0,0.0,0.0,1.0,-4771.0,-6276.0,11630.0,10120.0,0,"
+
 In Excel save the file as a cvs (comma delimited).
 convert C:/WotlK/WorldMapContinent.dbc.cvs back into a dbc file.
 
@@ -90,7 +94,6 @@ convert C:/WoD/WorldMapArea.dbc to a cvs and open.
 now open word pad off to the side.
 now search and extract every line that has the map id (1116) for column 2 and paste to your . 
 
-"
 941,1116,6720,"Frostfire Ridge",7506.25,1391.67004395,8275.0,4197.91992188,-1,0,962,0x0,90,93,
 945,1116,6723,"Tanaan Jungle",1506.25,-3481.25,5760.41992188,2435.41992188,-1,0,962,0x0,100,100,
 946,1116,6662,"Talador",5833.33007813,-129.166000366,4429.16992188,454.165985107,-1,0,962,0x0,94,96,
@@ -112,7 +115,7 @@ now search and extract every line that has the map id (1116) for column 2 and pa
 991,1116,7078,"garrison smv alliance_tier2",545.833984375,-137.5,2091.66699219,1635.41699219,-1,0,947,0x822,0,0,
 1009,1116,7332,"Ashran Alliance Faction Hub",-3625.0,-4312.5,3908.33300781,3450.0,-1,0,978,0x0,0,0,
 1011,1116,7333,"Ashran Horde Faction Hub",-3589.58398438,-4389.58398438,5541.66601563,5008.33300781,-1,0,978,0x0,0,0,
-"
+
 convert C:/WotlK/WorldMapArea.dbc to a cvs and open. now scroll to the bottom and add these entries and save.
 now open C:/WotlK/WorldMapArea.dbc.cvs with MS Excel and edit/verify new entries line up properly with Wotlk Entries.
 In Excel save the file as a cvs (comma delimited).
