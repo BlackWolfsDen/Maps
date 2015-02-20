@@ -3,17 +3,17 @@ this adds area name and area map.
 ----------------------------------------------------------------------------------------------------------------------
 required software:
 
- [*] mpq editor
+mpq editor
  
- [*] CASCExplorer
+CASCExplorer
  
- [*] MS excel
+MS excel
  
- [*] notepad
+notepad
  
- [*] Bulk Rename Utility
+Bulk Rename Utility
  
- [*] dbc->cvs->dbc converter
+dbc->cvs->dbc converter
  
 ----------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------
@@ -21,27 +21,37 @@ After downloading Anthony's Toolbox map, open the patch and create a folder name
 inside it and save the patch.
 Now create 2 folders on your c: drive.
 
- [*] 1 temporary folder called C:/WoD
+1 temporary folder called C:/WoD
 
- [*] 1 temporary folder called C:/Wotlk
+1 temporary folder called C:/Wotlk
 
 ----------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------
 now with CASCExplorer pointing at your WoD wow.exe folder, open CASCExplorer. this will take a short bit.
 
 now navigate to the DBFilesClient folder in the CASCExplorer screen and extract these 4 dbc files to your C:/WoD temp folder.
+
 AreaTable.dbc
+
 Map.dbc
+
 WorldMapArea.dbc
+
 WorldMapContinent.dbc
 
 now navigate to the DBc folder of your 3.3.5a Trinity Core server and extract these same 4 dbc files to your C:/wotlk working folder.
+
 AreaTable.dbc
+
 Map.dbc
+
 WorldMapArea.dbc
+
 WorldMapContinent.dbc
+
 ----------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------
+
 now first conver C:/WoD/Map.dbc to a .cvs file. once its converted , open it up with notepad and search for the map name you want to add the minimaps to.
 i will use Draenor as an example:
 
@@ -57,11 +67,13 @@ entry 1116 should now look like this:
 
 save the file as a cvs (comma delimited).
 convert C:/Map.dbc.cvs back into a dbc file.
+
 ----------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------
 >>> NOW extracting everything that deals with the map id you want.(1116) <<<
 ----------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------
+
 convert C:/WoD/WorldMapContinent.dbc to a cvs. open it with notepad and scroll down until you find the entry that contains the map id(1116) in the second column entry:
 "13,1116,0,0,0,0,0.0,0.0,1.0,-4771.0,-6276.0,11630.0,10120.0,0,1,"
 copy this entry to your clipboard.
