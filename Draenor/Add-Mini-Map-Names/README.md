@@ -153,8 +153,8 @@ now go back to your custom map patch you downloaded from Anthony's Toolbox open 
  * C:/WotlK/Map.dbc
  * C:/WotlK/WorldMapArea.dbc
  * C:/WotlK/WorldMapContinent.dbc
- 
- close the patch. rename it patch-4.mpq and add it to your folder /world of warcraft/data/
+
+close the patch. rename it patch-4.mpq and add it to your folder /world of warcraft/data/
 
 Start WoW and enjoy.
 ----------------------------------------------------------------------------------------------------------------------
