@@ -13,7 +13,7 @@ required software:
  
  * Bulk Rename Utility
  
- * Anthony'sToolbox Draenor patch -> http://adf.ly/w9AwQ . private request for NON AdFly link.
+ * Anthony'sToolbox Draenor patch -> http://adf.ly/w9AwQ . Private request me for non AdF.ly link.
  
 ----------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------
