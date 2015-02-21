@@ -19,11 +19,11 @@ required software:
 
 Before:
 
-![](http://i.imgur.com/HERmqtu.png) 
+![](http://i.imgur.com/glh46oi.png)
 
 After:
 
-![](http://i.imgur.com/glh46oi.png)
+![](http://i.imgur.com/hKXFrXq.png)
 
 ----------------------------------------------------------------------------------------------------------------------
 
