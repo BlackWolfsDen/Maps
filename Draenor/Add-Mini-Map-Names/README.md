@@ -16,7 +16,17 @@ required software:
  * dbc->cvs->dbc converter
  
 ----------------------------------------------------------------------------------------------------------------------
+
+Before:
+
+![](http://i.imgur.com/HERmqtu.png) 
+
+After:
+
+![](http://i.imgur.com/glh46oi.png)
+
 ----------------------------------------------------------------------------------------------------------------------
+
 After downloading Anthony's Toolbox map, open the patch and create a folder named "DBFilesClient" 
 inside it and save the patch.
 Now create 2 folders on your c: drive.
