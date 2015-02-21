@@ -138,10 +138,9 @@ convert C:/WotlK/WorldMapArea.dbc.cvs back into a dbc file.
 convert C:/WoD/WorldMapArea.dbc to a cvs and open.
 now open a new word pad off to the side.
 
-now search and extract every line that has the map id (1116) for column 2 and paste to your .
-column 3 may be recursive so go line by line of each map id (1116) and verify column 3 entry is an entry that also exsists with the 
-extracted entries . if column 3 entry was not extracted then find it and extract it with the rest. 
-missing entries WILL cause client to crash when player enters the missing entry area. i.e entry gets recursive call from column 3 but entry doesnt exsist.
+now search and extract every line that has the map id (1116) for column 2 and paste to your empty word pad.
+column 3 may be recursive so go line by line of each entry you extracted and verify column 3 entry is an entry that also exsists with the extracted entries . if column 3 entry was not extracted then find it and add it with the rest. 
+missing entries WILL cause a client to crash when a player enters the missing entry area. i.e entry gets recursive call from column 3 but entry doesnt exsist.
 so go thru and triple check that you have extracted EVERY entry that has map id (1116) in column 2.
 
 convert C:/WotlK/AreaTable.dbc to a cvs and open. now scroll to the bottom and ALL add these entries and save.
