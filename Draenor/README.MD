@@ -17,7 +17,7 @@ required software:
  
  * dbc->cvs->dbc converter -> http://cntc2.googlecode.com/files/DBCUtil.rar
  
- * Anthony'sToolbox Draenor patch -> http://adf.ly/w9AwQ . private request for NON AdFly link.
+ * Anthony'sToolbox Draenor patch -> http://www.mediafire.com/download/p6d66r2oay2m8lg/WoTLK335_Draenor_Continent_From_Rev_18918.MPQ .
  
 ----------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------
